@@ -693,6 +693,10 @@ body {
         margin-bottom: 15px;
     }
 
+    .correo {
+        text-align: center;
+        font-size: 8px;
+    }
 
     .horario-txt {
         flex-direction: column;

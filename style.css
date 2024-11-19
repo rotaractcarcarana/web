@@ -507,16 +507,17 @@ body {
         background-color: #d32364;
     }
 
-    .menu {
-        padding: 20px;
+    nav {
         display: flex;
+    }
+
+    .menu-1 {
+        display: inline;
         justify-content: center;
     }
 
     .menu-2 {
         display: none;
-        margin-top: 300px;
-        justify-content: center;
     }
 
     .logo-1 {
@@ -528,56 +529,14 @@ body {
         height: 11px;
         padding-top: 0px;
         padding-right: 105px;
+        filter: opacity(0%);
+        background-color: #2352d3;
     }
 
     .menu .nav-bar {
-        max-width: 350px;
-        max-height: 350px;
-        min-width: 350px;
-        min-height: 350px;
-        top: 100%;
-        border-radius: 20px;
-        background-color: rgba(137, 43, 226, 0);
-        display: flex;
-        position: absolute;
-        align-items: center;
+        display: inline-block;
+    
     }
-
-    .menu label {
-        background-color: rgba(226, 49, 43, 0);
-        display: flex;
-    }
-
-    .menu .nav-bar ul li {
-        max-width: 348px;
-        min-width: 298px;
-        height: 80px;
-        background-color: rgba(43, 226, 67, 0);
-        flex-direction: column;
-        border-radius: 20px;
-        margin: 3px;
-    }
-
-    .menu .nav-bar ul li a {
-        min-width: 298px;
-        height: 80px;
-        margin-inline: 5px;
-        background-color: #d32363;
-        color: #000000;
-        border-radius: 20px;
-        text-align: center;
-    }
-
-    .menu .nav-bar ul li a:hover {
-        border: 1px solid white;
-        background-color: #d32364;
-        color: #000000;
-    }
-
-    #menu:checked ~ .nav-bar {
-        display: none;
-    }
-
 
 
     .header-content {

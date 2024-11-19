@@ -509,13 +509,13 @@ body {
 
     nav {
         display: flex;
+        max-width: 400px;
+        min-width: 400px;
     }
 
     .menu-1 {
         display: inline;
         justify-content: center;
-        max-width: 400px;
-        min-width: 400px;
     }
 
     .menu-2 {

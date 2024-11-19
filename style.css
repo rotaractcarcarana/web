@@ -473,7 +473,7 @@ body {
 /* DESPLAZAMIENTO DE MENU */
 
 
-@media(max-width: 4100px) {
+@media(max-width: 2100px) {
 
     .swiper-button-prev::after {
         font-size: 25px;
@@ -708,14 +708,7 @@ body {
         margin: 8px 0 0 0;
     }
 
-    .map {
-        width: 550px;
-        height: 250px;
-    }
-
     .footer {
-        width: auto;
-        height: auto;
         padding: 30px;
         flex-direction: column;
         text-align: center;

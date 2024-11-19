@@ -473,7 +473,7 @@ body {
 /* DESPLAZAMIENTO DE MENU */
 
 
-@media(max-width: 2560px) {
+@media(max-width: 1560px) {
 
     .swiper-button-prev::after {
         font-size: 25px;

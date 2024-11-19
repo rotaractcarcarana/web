@@ -710,6 +710,11 @@ body {
         margin: 8px 0 0 0;
     }
 
+    .map {
+        max-width: 400px;
+        min-width: 350px;
+    }
+
     .footer {
         max-width: 400px;
         min-width: 350px;

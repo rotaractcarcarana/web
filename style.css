@@ -474,6 +474,10 @@ body {
 
 
 @media(max-width: 1560px) {
+    body {
+        display: block;
+        justify-content: center;
+    }
 
     .swiper-button-prev::after {
         font-size: 25px;

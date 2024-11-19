@@ -509,13 +509,10 @@ body {
 
     nav {
         display: none;
-        max-width: 300px;
-        min-width: 300px;
     }
 
     .menu-1 {
         display: none;
-        justify-content: center;
     }
 
     .menu-2 {
@@ -523,23 +520,15 @@ body {
     }
 
     .logo-1 {
-        width: 0px;
         display: none;
     }
 
     .logo-2 {
-        width: 11px;
-        height: 11px;
-        padding-top: 0px;
-        padding-right: 105px;
-        filter: opacity(0%);
-        background-color: #2352d3;
         display: none;
     }
 
     .menu .nav-bar {
         display: none;
-    
     }
 
 

@@ -529,10 +529,12 @@ body {
         margin-inline: 100px;
         max-width: 500px;
         max-height: 2000px;
+        min-width: 300px;
+        min-height: 200px;
         position: absolute;
         top: 100%;
         border-radius: 20px;
-        background-color: rgba(137, 43, 226, 0);
+        background-color: rgba(137, 43, 226, 0.904);
         display: flex;
         
         align-items: center;
@@ -545,6 +547,7 @@ body {
 
     .menu .nav-bar ul li {
         max-width: 500px;
+        min-width: 300px;
         height: 80px;
         background-color: rgba(43, 226, 67, 0);
         flex-direction: column;
@@ -575,10 +578,11 @@ body {
 
 
     .header-content {
-        background-color: rgba(137, 43, 226, 0);
+        background-color: rgba(137, 43, 226, 0.637);
         margin-top: 380px;
         max-width: 2500px;
         max-height: 2700px;
+        min-width: 300px;
     }
 
     .slider {
@@ -636,10 +640,14 @@ body {
     }
 
     .info {
+        margin-top: 20px;
+        background-color: #2352d3;
         max-width: 2500px;
+        min-width: 300px;
         padding: 30px;
         flex-direction: column;
         text-align: center;
+        margin-bottom: 20px;
     }
 
     .info-img {
@@ -678,6 +686,7 @@ body {
     .horario {
         max-width: 2500px;
         max-height: 2700px;
+        min-width: 300px;
         padding: 30px;
         text-align: center;
     }
@@ -702,6 +711,7 @@ body {
     .footer {
         max-width: 2500px;
         max-height: 2700px;
+        min-width: 300px;
         padding: 30px;
         flex-direction: column;
         text-align: center;

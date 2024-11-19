@@ -641,7 +641,6 @@ body {
     }
 
     .info {
-        padding: 30px;
         flex-direction: column;
         text-align: center;
     }
@@ -664,7 +663,7 @@ body {
     }
 
     .info-txt {
-        width: 100%;
+        width: 50%;
         text-align: center;
     }
 

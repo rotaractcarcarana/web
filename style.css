@@ -639,37 +639,7 @@ body {
         bottom: -7px;
     }
 
-    .info {
-        text-align: center;
-        display: flex;
-        align-items: center;
-    }
-
-    .info-img {
-        margin-right: 0px;
-        max-width: 390px;
-        height: 300px;
-        border-radius: 15px;
-    }
-
-    .info-img img {
-        width: 390px;
-        height: 300px;
-        margin-bottom: 25px;
-    }
-
-    .info-txt {
-        width: 100%;
-        text-align: center;
-    }
-
-    .info-txt h2 {
-        font-size: 50px;
-    }
-
-    .info-txt p {
-        font-size: 16px;
-    }
+  
 
     .btn-1 {
         font-size: 16px;

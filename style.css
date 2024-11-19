@@ -526,7 +526,7 @@ body {
         width: 11px;
         height: 11px;
         padding-top: 0px;
-        position: center;
+        position: absolute;
         filter: opacity(0%);
     }
 

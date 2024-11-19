@@ -526,7 +526,6 @@ body {
         width: 11px;
         height: 11px;
         padding-top: 0px;
-        padding-right: 105px;
         position: center;
         filter: opacity(0%);
     }
@@ -534,7 +533,7 @@ body {
     .menu .nav-bar {
         max-width: 350px;
         max-height: 350px;
-        min-width: 300px;
+        min-width: 350px;
         min-height: 350px;
         top: 100%;
         border-radius: 20px;
@@ -646,7 +645,7 @@ body {
         margin-top: 20px;
         background-color: #2352d300;
         max-width: 400px;
-        min-width: 350px;
+        min-width: 400px;
         padding: 30px;
         flex-direction: column;
         text-align: center;
@@ -688,7 +687,7 @@ body {
 
     .horario {
         max-width: 400px;
-        min-width: 350px;
+        min-width: 400px;
         padding: 30px;
         text-align: center;
     }
@@ -712,7 +711,7 @@ body {
 
     .map {
         max-width: 400px;
-        min-width: 350px;
+        min-width: 400px;
     }
 
     .footer {

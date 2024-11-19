@@ -683,9 +683,8 @@ body {
         max-width: 400px;
         min-width: 400px;
         padding: 30px;
+        flex-direction: column;
         text-align: center;
-        display: flex;
-        align-items: center;
     }
 
     .horario-info h2 {

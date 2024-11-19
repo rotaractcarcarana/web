@@ -473,7 +473,7 @@ body {
 /* DESPLAZAMIENTO DE MENU */
 
 
-@media(max-width: 2100px) {
+@media(max-width: 2560px) {
 
     .swiper-button-prev::after {
         font-size: 25px;
@@ -525,10 +525,10 @@ body {
         filter: opacity(0%);
     }
 
- 
-
     .menu .nav-bar {
         margin-inline: 100px;
+        max-width: 500px;
+        max-height: 2000px;
         position: absolute;
         top: 100%;
         border-radius: 20px;
@@ -544,22 +544,22 @@ body {
     }
 
     .menu .nav-bar ul li {
-        width: 100px;
+        max-width: 500px;
         height: 80px;
-        background-color: rgb(43, 226, 67);
+        background-color: rgba(43, 226, 67, 0);
         flex-direction: column;
         border-radius: 20px;
         margin: 3px;
-        text-align: center;
     }
 
     .menu .nav-bar ul li a {
-        width: 430%;
+        min-width: 486px;
         height: 80px;
-        background-color: #d3235e;
-        color: #FFFFFF;
+        margin-inline: 5px;
+        background-color: #d32363;
+        color: #000000;
         border-radius: 20px;
-        flex-direction: column;
+        text-align: center;
     }
 
     .menu .nav-bar ul li a:hover {
@@ -572,17 +572,20 @@ body {
         display: none;
     }
 
+
+
     .header-content {
-        padding: 30px;
-        flex-direction: column;
-        text-align: center;
+        background-color: rgba(137, 43, 226, 0);
+        margin-top: 380px;
+        max-width: 2500px;
+        max-height: 2700px;
     }
 
     .slider {
-        padding: 30px;
+        width: 100%;
         flex-direction: column;
-        text-align: center;
-
+        padding-right: 90px;
+        background-color: rgba(0, 255, 255, 0);
     }
 
     .slider-txt {
@@ -594,10 +597,12 @@ body {
 
     .slider-txt h1 {
         font-size: 50px;
+        color: rgb(255, 255, 255);
     }
 
     .slider-txt p {
         font-size: 16px;
+        color: rgb(255, 255, 255);
     }
 
     .btn-1 {
@@ -618,7 +623,7 @@ body {
         display: flex;
         justify-content: center;
         margin-right: 0px;
-        width: 90%;
+        max-width: 2500px;
         height: 300px;
         border-radius: 15px;
     }
@@ -630,35 +635,31 @@ body {
         bottom: -7px;
     }
 
-    .tabs {
-        padding: 50px 30px;
-    }
-
-    .tabs label {
-        width: 33%;
-    }
-
     .info {
+        max-width: 2500px;
         padding: 30px;
         flex-direction: column;
         text-align: center;
     }
-
 
     .info-img {
         display: flex;
         justify-content: center;
         align-items: center;
         margin-right: 0px;
+        max-width: 2500px;
+        height: 300px;
         border-radius: 15px;
     }
 
     .info-img img {
+        width: 400px;
+        height: 200px;
         margin-bottom: 25px;
     }
 
     .info-txt {
-        width: 50%;
+        width: 100%;
         text-align: center;
     }
 
@@ -675,19 +676,15 @@ body {
     }
 
     .horario {
+        max-width: 2500px;
+        max-height: 2700px;
         padding: 30px;
         text-align: center;
     }
 
     .horario-info h2 {
-        font-size: 20px;
+        font-size: 40px;
         margin-bottom: 15px;
-    }
-
-    .correo {
-        width: 8px;
-        text-align: center;
-        font-size: 8px;
     }
 
     .horario-txt {
@@ -703,6 +700,8 @@ body {
     }
 
     .footer {
+        max-width: 2500px;
+        max-height: 2700px;
         padding: 30px;
         flex-direction: column;
         text-align: center;

@@ -508,13 +508,13 @@ body {
     }
 
     nav {
-        display: flex;
+        display: none;
         max-width: 300px;
         min-width: 300px;
     }
 
     .menu-1 {
-        display: inline;
+        display: none;
         justify-content: center;
     }
 
@@ -524,6 +524,7 @@ body {
 
     .logo-1 {
         width: 0px;
+        display: none;
     }
 
     .logo-2 {
@@ -533,10 +534,11 @@ body {
         padding-right: 105px;
         filter: opacity(0%);
         background-color: #2352d3;
+        display: none;
     }
 
     .menu .nav-bar {
-        display: inline-block;
+        display: none;
     
     }
 

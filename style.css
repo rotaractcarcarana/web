@@ -641,8 +641,8 @@ body {
     }
 
     .info {
-        max-width: 400px;
-        min-width: 400px;
+        max-width: 450px;
+        min-width: 450px;
         padding: 30px;
         text-align: center;
         display: flex;

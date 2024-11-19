@@ -514,7 +514,7 @@ body {
     }
 
     .menu-2 {
-        display: none;
+        display: flex;
         margin-top: 300px;
     }
 
@@ -526,7 +526,6 @@ body {
         width: 11px;
         height: 11px;
         padding-top: 0px;
-        float: right;
     }
 
     .menu .nav-bar {

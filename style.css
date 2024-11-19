@@ -477,6 +477,7 @@ body {
     body {
         display: block;
         justify-content: center;
+        align-items: center;
     }
 
     .swiper-button-prev::after {
@@ -530,7 +531,6 @@ body {
     }
 
     .menu .nav-bar {
-        margin-inline: 100px;
         max-width: 350px;
         max-height: 350px;
         min-width: 300px;
@@ -540,7 +540,7 @@ body {
         border-radius: 20px;
         background-color: rgba(137, 43, 226, 0.904);
         display: flex;
-        
+        justify-content: center; 
         align-items: center;
     }
 

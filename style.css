@@ -516,6 +516,7 @@ body {
     .menu-2 {
         display: flex;
         margin-top: 300px;
+        justify-content: center;
     }
 
     .logo-1 {
@@ -523,8 +524,8 @@ body {
     }
 
     .logo-2 {
-        width: 11px;
-        height: 11px;
+        width: 0px;
+        height: 0px;
         padding-top: 0px;
     }
 

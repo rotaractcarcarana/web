@@ -526,7 +526,7 @@ body {
         width: 11px;
         height: 11px;
         padding-top: 0px;
-        float: left;
+        float: right;
     }
 
     .menu .nav-bar {
@@ -641,7 +641,12 @@ body {
     }
 
     .info {
-
+        max-width: 400px;
+        min-width: 400px;
+        padding: 30px;
+        text-align: center;
+        display: flex;
+        align-items: center;
     }
 
     .info-img {

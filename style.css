@@ -640,9 +640,6 @@ body {
     }
 
     .info {
-        max-width: 450px;
-        min-width: 450px;
-        padding: 30px;
         text-align: center;
         display: flex;
         align-items: center;

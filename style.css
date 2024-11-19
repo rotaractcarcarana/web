@@ -514,7 +514,7 @@ body {
     }
 
     .menu-2 {
-        display: flex;
+        display: none;
         margin-top: 300px;
         justify-content: center;
     }
@@ -524,9 +524,10 @@ body {
     }
 
     .logo-2 {
-        width: 0px;
-        height: 0px;
+        width: 11px;
+        height: 11px;
         padding-top: 0px;
+        padding-right: 105px;
     }
 
     .menu .nav-bar {
@@ -538,7 +539,7 @@ body {
         border-radius: 20px;
         background-color: rgba(137, 43, 226, 0);
         display: flex;
-        justify-content: center; 
+        position: absolute;
         align-items: center;
     }
 
@@ -640,7 +641,43 @@ body {
         bottom: -7px;
     }
 
-  
+    .info {
+        max-width: 400px;
+        min-width: 400px;
+        padding: 30px;
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .info-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 0px;
+        max-width: 250px;
+        height: 130px;
+        border-radius: 15px;
+    }
+
+    .info-img img {
+        width: 250px;
+        height: 130px;
+        margin-bottom: 25px;
+    }
+
+    .info-txt {
+        width: 100%;
+        text-align: center;
+    }
+
+    .info-txt h2 {
+        font-size: 50px;
+    }
+
+    .info-txt p {
+        font-size: 16px;
+    }
 
     .btn-1 {
         font-size: 16px;

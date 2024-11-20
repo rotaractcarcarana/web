@@ -596,7 +596,7 @@ body {
     .info {
         margin-inline: 10px;
         max-width: 400px;
-        min-width: 400px;
+        min-width: 350px;
         margin-top: 20px;
         background-color: #2352d300;
         padding: 30px;
@@ -642,7 +642,7 @@ body {
 
     .horario {
         max-width: 400px;
-        min-width: 400px;
+        min-width: 350px;
         padding: 30px;
         flex-direction: column;
         text-align: center;

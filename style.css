@@ -594,6 +594,7 @@ body {
     }
 
     .info {
+        margin-inline: 10px;
         max-width: 400px;
         min-width: 400px;
         margin-top: 20px;

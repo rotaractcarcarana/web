@@ -560,6 +560,8 @@ body {
     }
 
     .slider-txt p {
+        width: 400px;
+        height: auto;
         font-size: 16px;
         color: rgb(255, 255, 255);
     }

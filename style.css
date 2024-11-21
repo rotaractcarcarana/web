@@ -473,7 +473,7 @@ body {
 /* DESPLAZAMIENTO DE MENU */
 
 
-@media(max-width: 1560px) {
+@media(max-width: 720px) {
     body {
         display: block;
         justify-content: center;

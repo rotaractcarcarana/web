@@ -114,7 +114,7 @@ body {
 
 .header-content {
     margin-top: 250px;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
 }
 
 
@@ -345,7 +345,7 @@ body {
 
 
 .info {
-    margin-top: 200px;
+    margin-top: 50px;
     margin-inline: 35px;
     padding: 100px 0px;
     display: flex;

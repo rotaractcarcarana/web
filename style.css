@@ -475,6 +475,15 @@ body {
 
 @media(max-width: 720px) {
 
+    body {
+        margin: 5px 5px;
+        background-color: rgb(187, 133, 236);
+        border-radius: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
     .swiper-button-prev::after {
         font-size: 25px;
     }

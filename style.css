@@ -539,8 +539,6 @@ body {
     .header-content {
         background-color: rgba(137, 43, 226, 0);
         margin-top: 30px;
-        max-width: 400px;
-        min-width: 400px;
     }
 
     .slider {
@@ -598,9 +596,6 @@ body {
     }
 
     .info {
-        margin-inline: 10px;
-        max-width: 400px;
-        min-width: 400px;
         margin-top: 20px;
         background-color: #2352d300;
         padding: 30px;

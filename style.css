@@ -198,7 +198,7 @@ body {
 }
 .swiper-button-next {
     color: #ffffff;
-    margin-right: 100px;
+
 }
 .swiper-button-prev {
     color: #ffffff;
@@ -543,7 +543,7 @@ body {
     .menu .nav-bar ul {
         margin: 10px;
         border-radius: 10px;
-        background-color: #d32364;
+        background-color: #ff035f;
         display: flex;
         justify-content: center;
         align-items: center;

@@ -483,7 +483,7 @@ body {
 /* DESPLAZAMIENTO DE MENU */
 
 
-@media(max-width: 991px) {
+@media(max-width: 480px) {
 
     .menu {
         background-color: rgba(0, 0, 0, 0);

@@ -560,14 +560,10 @@ body {
     .header-content {
         padding: 20px;
         margin-top: 350px;
-        width: 50%;
-        height: auto;
     }
 
     .slider {
         flex-direction: column;
-        width: 50%;
-        height: auto;
     }
 
     .slider-txt {

@@ -558,8 +558,6 @@ body {
     }
 
     .header-content {
-        width: 300px;
-        height: 250px;
         padding: 20px;
         margin-top: 350px;
         
@@ -570,8 +568,6 @@ body {
     }
 
     .slider-txt {
-        margin-left: 0;
-        width: 100%;
         text-align: center;
         margin-bottom: 50px;
     }
@@ -591,13 +587,13 @@ body {
     }
 
     .slider-img {
-        width: 100%;
         text-align: center;
     }
 
     .slider-img img {
         margin-right: 0px;
-        width: 300px;
+        width: 250px;
+        height: 200px;
     }
 
     .swiper-horizontal > .swiper-pagination-bullets,

@@ -561,7 +561,7 @@ body {
         margin-top: 350px;
         padding: 30px;
         flex-direction: column;
-        margin-inline: -100px;
+        margin-inline: -10px;
     }
 
     .slider-img img {

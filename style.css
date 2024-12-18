@@ -557,7 +557,7 @@ body {
         display: none;
     }
 
-    header {
+    .header-content {
         margin-top: 350px;
         padding: 30px;
         flex-direction: column;

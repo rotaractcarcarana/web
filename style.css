@@ -560,7 +560,6 @@ body {
     .header-content {
         margin-top: 350px;
         padding: 30px;
-        flex-direction: column;
         margin-inline: -10px;
     }
 

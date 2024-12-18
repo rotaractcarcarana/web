@@ -558,13 +558,12 @@ body {
     }
 
     .header-content {
-        padding: 20px;
+        padding: 5px;
         margin-top: 350px;
         display: flex;
         justify-content: center;
         
     }
-
 
     .slider-img img {
         margin-right: 0px;
@@ -580,7 +579,7 @@ body {
     }
 
     .tabs {
-        padding: 50px 30px;
+        padding: 50px 0px;
     }
 
     .tabs label {

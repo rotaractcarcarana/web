@@ -558,15 +558,43 @@ body {
     }
 
     .header-content {
+        padding: 20px;
         margin-top: 350px;
-        padding: 30px;
-        margin-inline: -10px;
+    }
+
+    .slider {
+        flex-direction: column;
+    }
+
+    .slider-txt {
+        margin-left: 0;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .slider-txt h1 {
+        font-size: 50px;
+    }
+
+    .slider-txt p {
+        font-size: 16px;
+    }
+
+    .btn-1 {
+        padding: 10px 25px;
+        font-size: 14px;
+        margin-block: 10px;
+    }
+
+    .slider-img {
+        width: 100%;
+        text-align: center;
     }
 
     .slider-img img {
         margin-right: 0px;
-        width: 250px;
-        height: 200px;
+        width: 300px;
     }
 
     .swiper-horizontal > .swiper-pagination-bullets,
@@ -577,7 +605,7 @@ body {
     }
 
     .tabs {
-        padding: 50px 0px;
+        padding: 50px 30px;
     }
 
     .tabs label {
@@ -595,7 +623,7 @@ body {
     }
 
     .info-img img {
-        width: 250px;
+        width: 400px;
         height: 200px;
         margin-bottom: 25px;
     }
